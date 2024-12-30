@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/ui',
-    'nuxt-security',
+    '@nuxtjs/security',
     '@vueuse/nuxt'
   ],
 

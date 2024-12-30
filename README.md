@@ -1,4 +1,4 @@
-[![nuxt-security](https://nuxt-security.vercel.app/preview.png)](https://nuxt-security.vercel.app)
+[![nuxt-security](https://security.nuxtjs.org/preview.png)](https://security.nuxtjs.org)
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -12,8 +12,8 @@ Automatically configure your app to follow OWASP security patterns and principle
 
 > This module works with Nuxt 3 only
 
-- [📖 &nbsp;Read the documentation](https://nuxt-security.vercel.app)
-- [👾 &nbsp;Playground](https://nuxt-security.vercel.app/playground)
+- [📖 &nbsp;Read the documentation](https://security.nuxtjs.org)
+- [👾 &nbsp;Playground](https://security.nuxtjs.org/playground)
 
 ## Features
 
@@ -40,14 +40,14 @@ You can pass configuration to the module in the `nuxt.config.ts` like following:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["nuxt-security"],
+  modules: ["@nuxtjs/security"],
   security: {
     // options
   }
 })
 ```
 
-For all available configuration options check out the [docs](https://nuxt-security.vercel.app).
+For all available configuration options check out the [docs](https://security.nuxtjs.org).
 
 ## Development
 
@@ -60,13 +60,13 @@ For all available configuration options check out the [docs](https://nuxt-securi
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-security/latest.svg
-[npm-version-href]: https://npmjs.com/package/nuxt-security
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-security.svg
-[npm-downloads-href]: https://npmjs.com/package/nuxt-security
-[github-actions-ci-src]: https://github.com/baroshem/nuxt-security/actions/workflows/ci.yml/badge.svg
-[github-actions-ci-href]: https://github.com/baroshem/nuxt-security/actions?query=workflow%3Aci
-[license-src]: https://img.shields.io/npm/l/nuxt-security.svg
-[license-href]: https://npmjs.com/package/nuxt-security
+[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/security/latest.svg
+[npm-version-href]: https://npmjs.com/package/@nuxtjs/security
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/security.svg
+[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/security
+[github-actions-ci-src]: https://github.com/nuxt-modules/security/actions/workflows/ci.yml/badge.svg
+[github-actions-ci-href]: https://github.com/nuxt-modules/security/actions?query=workflow%3Aci
+[license-src]: https://img.shields.io/npm/l/@nuxtjs/security.svg
+[license-href]: https://npmjs.com/package/@nuxtjs/security
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

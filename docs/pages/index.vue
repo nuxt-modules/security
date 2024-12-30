@@ -6,7 +6,7 @@ definePageMeta({
 const seo = {
   title: 'Nuxt Security',
   description: 'Automatically configure your app to follow OWASP security patterns and principles by using HTTP Headers and Middleware.',
-  cover: 'https://nuxt-security.vercel.app/preview.png'
+  cover: 'https://security.nuxtjs.org/preview.png'
 }
 
 const source = ref('npx nuxi@latest module add security')

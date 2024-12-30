@@ -19,7 +19,7 @@ const links = [
   },
   {
     label: 'Releases',
-    to: 'https://github.com/Baroshem/nuxt-security/releases',
+    to: 'https://github.com/nuxt-modules/security/releases',
     target: '_blank',
   },
 ]
@@ -62,7 +62,7 @@ provide('navigation', navigation)
       <UButton
         aria-label="Nuxt Security on GitHub"
         icon="i-simple-icons-github"
-        to="https://github.com/Baroshem/nuxt-security"
+        to="https://github.com/nuxt-modules/security"
         target="_blank"
         color="gray"
         variant="ghost"
@@ -94,7 +94,7 @@ provide('navigation', navigation)
       <span class="text-sm">
         Published under
         <NuxtLink
-          to="https://github.com/Baroshem/nuxt-security"
+          to="https://github.com/nuxt-modules/security"
           target="_blank"
           class="underline"
         >MIT License</NuxtLink>
@@ -121,7 +121,7 @@ provide('navigation', navigation)
       <UButton
         aria-label="Nuxt Security on GitHub"
         icon="i-simple-icons-github"
-        to="https://github.com/Baroshem/nuxt-security"
+        to="https://github.com/nuxt-modules/security"
         target="_blank"
         color="gray"
         variant="ghost"

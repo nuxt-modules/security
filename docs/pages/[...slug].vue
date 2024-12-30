@@ -39,13 +39,13 @@ const communityLinks = computed(() => [
   {
     icon: 'i-ph-pen-duotone',
     label: 'Edit this page',
-    to: `https://github.com/Baroshem/nuxt-security/edit/main/docs/content/${page?.value?._file}`,
+    to: `https://github.com/nuxt-modules/security/edit/main/docs/content/${page?.value?._file}`,
     target: '_blank',
   },
   {
     icon: 'i-ph-shooting-star-duotone',
     label: 'Star on GitHub',
-    to: 'https://github.com/Baroshem/nuxt-security',
+    to: 'https://github.com/nuxt-modules/security',
     target: '_blank',
   },
   {

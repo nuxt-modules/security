@@ -18,7 +18,7 @@ export * from './types/middlewares'
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-security',
+    name: '@nuxtjs/security',
     configKey: 'security'
   },
   async setup (options, nuxt) {

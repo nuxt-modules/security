@@ -15,7 +15,7 @@ useSeoMeta({
     <ClientOnly>
       <iframe
         class="dark:bg-gray-950"
-        :src="`https://stackblitz.com/github/Baroshem/nuxt-security?embed=1&file=.stackblitz%2Fnuxt.config.ts&theme=${$colorMode.preference}`"
+        :src="`https://stackblitz.com/github/nuxt-modules/security?embed=1&file=.stackblitz%2Fnuxt.config.ts&theme=${$colorMode.preference}`"
         width="100%"
         height="100%"
       />

@@ -1,15 +1,15 @@
 {
-  "name": "nuxt-security",
-  "version": "2.1.4",
+  "name": "@nuxtjs/security",
+  "version": "2.1.5",
   "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=18.0.0"
   },
-  "homepage": "https://nuxt-security.vercel.app",
+  "homepage": "https://security.nuxtjs.org",
   "description": "🛡️ Security Module for Nuxt based on HTTP Headers and Middleware",
   "repository": {
-    "url": "https://github.com/Baroshem/nuxt-security"
+    "url": "https://github.com/nuxt-modules/security"
   },
   "keywords": [
     "nuxt",
