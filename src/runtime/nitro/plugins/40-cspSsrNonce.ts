@@ -3,6 +3,7 @@ import { resolveSecurityRules } from '../context'
 import { generateRandomNonce } from '../../../utils/crypto'
 
 const LINK_RE = /<link([^>]*?>)/gi
+const NONCE_RE = /nonce="[^"]+"/i
 const SCRIPT_RE = /<script([^>]*?>)/gi
 const STYLE_RE = /<style([^>]*?>)/gi
 
@@ -58,6 +59,9 @@ export default defineNitroPlugin((nitroApp) => {
         }
         // Add nonce to all link tags
         element = element.replace(LINK_RE, (match, rest) => {
+          if (NONCE_RE.test(rest)) {
+            return match.replace(NONCE_RE, `nonce="${nonce}"`);
+          }
           return `<link nonce="${nonce}"` + rest
         })
         // Add nonce to all script tags
