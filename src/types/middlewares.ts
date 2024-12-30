@@ -19,6 +19,7 @@ export type RateLimiter = {
       options?:  BuiltinDriverOptions[driverName] }
   }[BuiltinDriverName];
   headers?: boolean;
+  whiteList?: string[];
   throwError?: boolean;
 };
 

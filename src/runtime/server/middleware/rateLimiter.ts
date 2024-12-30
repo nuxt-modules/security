@@ -28,6 +28,9 @@ export default defineEventHandler(async(event) => {
       defaultRateLimiter
     )
     const ip = getIP(event)
+    if(rateLimiter.whiteList && rateLimiter.whiteList.includes(ip)){
+      return
+    }
     const url = ip + route
 
     let storageItem = await storage.getItem(url) as StorageItem

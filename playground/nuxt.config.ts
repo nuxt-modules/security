@@ -42,7 +42,16 @@ export default defineNuxtConfig({
           referrerPolicy: false
         }
       }
-    }
+    },
+    '/rateLimit': {
+      security: {
+        rateLimiter: {
+          tokensPerInterval:1,
+          interval: 1000,
+          whiteList: ['127.0.0.1'],
+        },
+      },
+    },
   },
 
   // Global configuration

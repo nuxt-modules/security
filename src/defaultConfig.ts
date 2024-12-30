@@ -55,6 +55,7 @@ export const defaultSecurityConfig = (serverlUrl: string, strict: boolean) => {
       driver: {
         name: 'lruCache'
       },
+      whiteList: undefined,
       ...defaultThrowErrorValue
     },
     xssValidator: {
